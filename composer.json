@@ -1,0 +1,22 @@
+{
+    "name": "projet/chat",
+    "description": "mini chat",
+    "authors": [
+        {
+            "name": "Ali belhaj",
+            "email": "ali.belhadjj@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/psr7": "^1.4",
+        "http-interop/response-sender": "^1.0",
+        "zendframework/zend-expressive-fastroute": "^2.1",
+        "twig/twig": "^2.4",
+        "php-di/php-di": "^5.4"
+    }
+}
