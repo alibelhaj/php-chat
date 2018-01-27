@@ -15,9 +15,9 @@ use Interop\Container\ContainerInterface;
 
 return [
     'database.host' => 'localhost',
-    'database.username' => 'jimmy',
+    'database.username' => 'root',
     'database.name' => 'mini-chat',
-    'database.password' => "test123",
+    'database.password' => "",
     'views.path' => dirname(__DIR__) . '/layout',
 
     Route::class => \DI\object(),
